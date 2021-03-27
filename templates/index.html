@@ -1,0 +1,858 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Django templating -->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+
+
+<link
+rel="stylesheet"
+type="text/css"
+href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext"
+/>
+
+<title>SoftApp Technologies</title>
+<!-- CSS Django --> 
+<link as="style" href="{% static 'css/nav.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+<!-- <link rel="shortcut icon" type="image" href="{% static 'image/finallogo.jpg' %}"/> -->
+<!-- <img
+src="{% static 'image/finallogo.jpg' %}"
+class="shortcut icon"
+alt="Langrennsfar"
+
+/> -->
+<link as="style" href="{% static 'css/reset.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/fonts.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/marquee.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/all.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/animate.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/custom.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/custom2.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/iconmoon.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/magnific-popup.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/owl-carousel.min.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/marquee.css' %}" rel="stylesheet" />
+<link as="style" href="{% static 'css/css.css' %}" rel="stylesheet" />
+<!-- CSS --> 
+<link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+<!-- <link href="css/reset.css" rel="stylesheet">
+<link href="css/fonts.css" rel="stylesheet"> -->
+<!-- <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/select2/css/select2.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/magnific-popup/css/magnific-popup.css" rel="stylesheet">
+<link href="assets/iconmoon/css/iconmoon.css" rel="stylesheet">
+<link href="assets/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/custom2.css" rel="stylesheet"> -->
+</head>
+<body>
+<!-- ==============================================
+    ** Preloader **
+    =================================================== -->
+<div id="loading">
+  <div class="element">
+    <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==============================================
+    ** Header **
+    =================================================== -->
+<header> 
+  
+  <!-- End Header top Bar --> 
+  <!-- Start Header Middle -->
+  <section class="top-section">
+    <div class="container-fluid header-middle">
+      <div class="row align-items-start"> 
+        <div class="col-md-2">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <div class="panel-group" id="accordion">
+                    <div class="panel panel-default pb-5">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Js Framework
+                             &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+                        <ul class="list-group">
+                          <li><a href="nodejs.html">Node js</a></li>
+                          <li><a href="reactjs.html">React js</a></li>
+                          <li><a href="cart_js.html">Chart js</a></li>
+                          <li><a href="matter_js.html">Matter js</a></li>
+                          <li><a href="Expressjs.html">Express js</a></li>
+                          <li><a href="ember_js.html">Ember js</a></li>
+                          <li><a href="chartist-js.html">Chartist js</a></li>
+                          <li><a href="c3js.html">C3 js</a></li>
+                          <li><a href="MEAN-Application.html">MEAN Application</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">PHP Framework &nbsp;
+                            <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+                        <ul>
+                          <li><a href="laravel.html">Laravel</a></li>
+                          <li><a href="Zend-MVC.html">Zend MVC</a></li>
+                          <li><a href="Phalcon-MVC.html">Phalcon MVC</a></li>
+                          <li><a href="Codeigniter-MVC.html">Codeigniter MVC</a></li>
+                          <li><a href="Yii-MVC.html">Yii MVC</a></li>
+                          <li><a href="Joomla-MVC.html">Joomla MVC</a></li>
+                          <li><a href="Cake-MVC.html">Cake MVC</a></li>
+                        </ul>
+                      </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree2">
+                          <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseThirty" aria-expanded="false" aria-controls="collapseThree2">
+                                Databases &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i>
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseThirty" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+                          <ul>
+                            <li><a href="firebase.html">Firebase Database</a></li>
+                            <li><a href="mongo_db.html">Mongo DB</a></li>
+                            <li><a href="SQLite-Database.html">SQLite Database</a></li>
+                            <li><a href="Hadoop.html">BigData / Hadoop</a></li>
+                            <li><a href="Yii-MVC.html">Yii MVC</a></li>
+                            <li><a href="Joomla-MVC.html">Joomla MVC</a></li>
+                            <li><a href="Cake-MVC.html">Cake MVC</a></li>
+                            <li><a href="JSON.html">JSON</a></li>
+                            <li><a href="api.html">API with JSON</a></li>
+                          </ul>
+                        </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingThree2">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseThirty1" aria-expanded="false" aria-controls="collapseThree2">
+                                  java Framework &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThirty1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+                            <ul>
+                              <li><a href="Java-Server-Faces.html">Java Server Faces</a></li>
+                              <li><a href="Oracle.html">Oracle</a></li>
+                              <li><a href="DOJO.html">DOJO Application</a></li>
+                              <li><a href="Jira.html">Jira Application</a></li>
+                            </ul>
+                          </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree2">
+                              <h4 class="panel-title">
+                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseThirty11" aria-expanded="false" aria-controls="collapseThree2">
+                                   Python Framework  &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i>
+                                  </a>
+                              </h4>
+                          </div>
+                          <div id="collapseThirty11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+                              <ul>
+                                <li><a href="django.html">Django</a></li>
+                               
+                              </ul>
+                            </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingThree2">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseThirty111" aria-expanded="false" aria-controls="collapseThree2">
+                                    Application  &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    </a>
+                                </h4>
+                              </div>
+                              <div id="collapseThirty111" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+                                <ul>
+                                  <li><a href="iOS-Application.html">iOS Application</a></li>
+                                  <li><a href="Android.html">Android Application</a></li>
+                                </ul>
+                              </div>
+                              </div>
+
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree2">
+                                  <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseThirty1111" aria-expanded="false" aria-controls="collapseThree2">
+                                      All Courses  &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i>
+                                      </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseThirty1111" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+                                  <ul>
+                                    <li><a href="react_native.html">React Native</a></li>
+                                    <li><a href="ionic.html">iONIC</a></li>
+                                    <li><a href="jquery.html">JQuery</a></li>
+                                    <li><a href="Mangento.html">Mangento</a></li>
+                                    <li><a href="Wordpress.html">Wordpress</a></li>
+                                    <li><a href="Drupal.html">Drupal</a></li>
+                                    <li><a href="Linquee.html">Linquee</a></li>
+                                    <li><a href="sap.html">System Application Products</a></li>
+                                    <li><a href="Tally.html">Tally ERP -9 With GST</a></li>
+                                    <li><a href="BootStraps.html">BootStraps/twitter</a></li>
+                                    <li><a href="Hibernate.html">Hibernate</a></li>
+                                    <li><a href="Services-Now.html">Services Now</a></li>
+                                    <li><a href="Amazon.html">Amazon Web Services</a></li>
+                                    <li><a href="Redhut.html">Redhut Linux</a></li>
+                                    <li><a href="microsoft.net.html">Microsoft.Net</a></li>
+                                    <li><a href="Web-Development.html">Web Development</a></li>
+                                  </ul>
+                                </div>
+                                </div>
+                           </div>
+                      </div>
+         
+            <div id="main">
+            <i class="fa fa-bars" style="font-size:30px;cursor:pointer;" onclick="openNav()"></i>
+          </div>
+        </div>
+        <div class="col-md-2 col-md-12 col-sm-12">
+          <a href="index.html"><img
+            src="{% static 'image/finallogo.jpg' %}"
+            alt="Langrennsfar"/>
+          </a>
+        </div>
+
+        <div class="col-lg-8 col-md-8">
+          <div class="contact clearfix">
+            <ul class="hidden-xs">
+              <li> <span>Email</span> <a href="mailto:info@softapptechnologies.com">info@softapptechnologies.com</a> </li>
+              <li> <span>Mobile</span> +91 99994 87949 </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+   <!-- Start Navigation -->
+   <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a> </li>
+          <li><a href="about.html">The SoftApp</a></li>
+          <li class="dropdown"><a data-toggle="dropdown" href="#">Our Courses <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="nodejs.html">Node js</a></li>
+              <li><a href="reactjs.html">React js</a></li>
+              <li><a href="cart_js.html">Chart js</a></li>
+              <li><a href="matter_js.html">Matter js</a></li>
+                <li><a href="javascript:void(0)" class="closebtn" onclick="openNav()">All Courses</a></li>
+            </ul>
+          </li>
+          <li> <a href="gallery.html">Gallery</a></li>
+          <li class="dropdown"> <a data-toggle="dropdown" href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Live Projects Classes</a></li>
+              <li><a href="#">Online Classes</a></li>
+              <li><a href="#">Internship</a></li>
+              <li><a href="#">Latest Course</a></li>
+              <li><a href="#">4 Weeks Live Projects Internship </a></li>
+              <li><a href="#">6 Weeks Live Projects Internship </a></li>
+              <li><a href="#">6 Months Diploma</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a data-toggle="dropdown" href="#">Certificate<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">AWS Certified Developer-Associate</a></li>
+              <li><a href="#">AWS Certified Solutions Architect-Associate </a></li>
+              <li><a href="#">Oracle Linux  OCA & OCP</a></li>
+              <li><a href="#">Linux + CompTIA </a></li>
+              <li><a href="#">Oracle Certified Master, Java EE 6 Enterprise Architect</a></li>
+              <li><a href="#">Java Foundations Certified Junior Associate (JFCJA) </a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a data-toggle="dropdown" href="#">Branches<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Head Office - Delhi</a></li>
+              <li><a href="#">Vikaspuri - Delhi</a></li>
+              <li><a href="#">Noida - UP </a></li>
+              <li><a href="#">CyberCity - Gurgoan</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation --> 
+  
+</header>
+<!-- ==============================================
+    ** **
+    =================================================== -->
+ <!-- ==============================================
+    *** Marqee-section***
+    =================================================== -->
+    <div class="marquee-section main-marqee-section">
+      <marquee behavior="scroll" direction="left" scrollamount="8" onmouseover="this.stop();" onmouseout="this.start();">
+        <p class="" style="color: #ff2603; font-size: 20px;"> 4 - 6
+          Weeks online training classes...more information visit on <a
+            href="https://softapptechnologies.com">softapptechnologies</a></p>
+      </marquee>
+    </div>
+
+
+
+  <!-- ==============================================
+    ** Banner Carousel **
+    =================================================== -->
+    <!-- <div class="banner-outer">
+      <div class="banner-slider">
+        <div class="slide1">
+          <div class="container">
+            <div class="content">
+              <div class=""> <img src ="{% static 'image/s3.jpg' %}" style="width: 30%;">   
+                <h1 class="animated fadeInUp">SoftApp Technologies</h1>
+                <p class="animated fadeInUp" style="color: #fff;">SoftApp Technologies is Software Development Software
+                  Training Company. Head Office in Delhi Branch Office in Sect-62 Noida</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide2">
+          <div class="container">
+            <div class="content">
+              <div class="fl-right">
+                <h1 class="animated fadeInUp">Online Clases</h1>
+                <p class="animated fadeInUp">SoftApp Technologies is an online training provider with the most effective
+                  learning programs. We help learn the latest technologies for your career growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide3">
+          <div class="container">
+            <div class="content">
+              <h1 class="animated fadeInUp">Online Clases</h1>
+              <p class="animated fadeInUp">SoftApp Technologies is an online training provider with the most effective
+                learning programs. We help learn the latest technologies for your career growth.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="{% static 'image/s1.jpg' %}" alt="Chania" width= "1349" height="588">
+          <div class="carousel-caption">
+            <h3>Los Angeles</h3>
+            <p>LA is always so much fun!</p>
+          </div>
+        </div>
+    
+        <div class="item">
+          <img src="{% static 'image/s2.jpg' %}" alt="Chicago" width= "1349" height="588">
+          <div class="carousel-caption">
+            <h3>Chicago</h3>
+            <p>Thank you, Chicago!</p>
+          </div>
+        </div>
+    
+        <div class="item">
+          <img src="{% static 'image/s3.jpg' %}" alt="New York" width= "1349" height="588">
+          <div class="carousel-caption">
+            <h3>New York</h3>
+            <p>We love the Big Apple!</p>
+          </div>
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- ==============================================
+      ** News & Events **
+      =================================================== -->
+    <section class="news-events padding-lg">
+      <div class="container">
+        <h2><span>There are many ways to learn</span>Career Related Programs</h2>
+        <ul class="row cs-style-3">
+          <li class="col-sm-4">
+            <div class="inner">
+              <figure> <img src= "{% static 'image/node.jpg' %}" class="img-responsive">
+                <figcaption>
+                  <div class="cnt-block"><a href="nodejs.html" class="plus-icon">+</a>
+                    <h3 class="mb-5">Node js </h3>
+                    <span style="color: red;">INR:10k</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="col-sm-4">
+            <div class="inner">
+              <figure> <img src="{% static 'image/reactjs.png' %}" class="img-responsive">
+                <figcaption>
+                  <div class="cnt-block"> <a href="reactjs.html" class="plus-icon">+</a>
+                    <h3>React js</h3>
+                    <span style="color: red;">INR:8K</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="col-sm-4">
+            <div class="inner">
+              <figure> <img src= "{% static 'image/reactnavtive.jpg' %}" class="img-responsive">
+                <figcaption>
+                  <div class="cnt-block"> <a href="react_native.html" class="plus-icon">+</a>
+                    <h3>React Native</h3>
+                    <span style="color: red;">INR:10K</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+        </ul>
+        <ul class="row cs-style-3">
+          <li class="col-sm-4">
+            <div class="inner">
+              <figure> <img src= "{% static 'image/django.png' %}" class="img-responsive">
+                <figcaption>
+                  <div class="cnt-block"> <a href="django.html" class="plus-icon">+</a>
+                    <h3>Django</h3>
+                    <span style="color: red;">INR:8K</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="col-sm-4">
+            <div class="inner">
+              <figure> <img src= "{% static 'image/charjs.jpg' %}" class="img-responsive">
+                <figcaption>
+                  <div class="cnt-block"> <a href="cart_js.html" class="plus-icon">+</a>
+                    <h3>Chart js</h3>
+                    <span style="color: red;">INR:8K</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="col-sm-4">
+            <div class="inner">
+              <figure> <img src= "{% static 'image/sap.jpg' %}" class="img-responsive">
+                <figcaption>
+                  <div class="cnt-block"> <a href="sap.html" class="plus-icon">+</a>
+                    <h3>SAP</h3>
+                    <span style="color: red;">INR:25K</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+        </ul>
+        <ul class="row cs-style-3">
+          <li class="col-sm-4">
+            <div class="inner">
+              <figure> <img src= "{% static 'image/iconic.jpeg' %}" class="img-responsive">
+                <figcaption>
+                  <div class="cnt-block"> <a href="ionic.html" class="plus-icon">+</a>
+                    <h3>iONIC</h3>
+                    <span style="color: red;">INR:9K</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="col-sm-4">
+            <div class="inner">
+              <figure> <img src= "{% static 'image/mongodb.png' %}" class="img-responsive">
+                <figcaption>
+                  <div class="cnt-block"> <a href="mongo_db.html" class="plus-icon">+</a>
+                    <h3>Mongo DB</h3>
+                    <span style="color: red;">INR:8K</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="col-sm-4">
+            <div class="inner">
+              <figure> <img src= "{% static 'image/java.jpg' %}" class="img-responsive">
+                <figcaption>
+                  <div class="cnt-block"> <a href="java.html" class="plus-icon">+</a>
+                    <h3>Java</h3>
+                    <span style="color: red;">INR:8K</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+        </ul>
+        <div class="know-more-wrapper"> <a href="read-more.html" class="know-more"> Click More Post <span
+              class="icon-more-icon"></span></a> </div>
+      </div>
+    </section>
+
+
+<!-----animated-accordion------>
+
+<section class="animated-accordion">
+<div class="container">
+<div id="accordion">
+<div class="card">
+<div class="card-header" id="heading-2">
+  <div class="container">
+    <h5 class="mb-0"> <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2" style="margin-left: 15px;"> Course Content </a> </h5>
+  </div>
+</div>
+<div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+<div class="card-body">
+<div class="row">
+<div class="col-md-12">
+<div class="Accordion-main">
+<div class="container mt-10">
+<div class="col-md-12">
+<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingOne2">
+    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Introduction to Django </a> </h4>
+  </div>
+  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne2">
+    <div class="panel-body">
+      <div class="mini-accordion">
+        <p><b>Learning Objective:</b>Django was design and developed by Lawrence journal world in 2003 and publicly released under BSD license in July 2005. Currently, DSF (Django Software Foundation) maintains its development and release cycle.
+          Django was released on 21, July 2005. Its current stable version is 2.0.3 which was released on 6 March, 2018.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingTwo2">
+    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> DJANGO – BASICS </a> </h4>
+  </div>
+  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+    <div class="panel-body">
+      <div class="mini-accordion">
+        <p><b>Learning Objective:</b> In this module, you will learn about the Basics of Django.</p>
+        <p><b>Topics:</b></p>
+        <ul>
+          <li>History of Django </li>
+          <li>Django – Design Philosophies</li>
+          <li>Advantages of Django</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingThree2">
+    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> DJANGO – ENVIRONMENT </a> </h4>
+  </div>
+  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+    <div class="panel-body">
+      <div class="mini-accordion">
+        <p><b>Learning Objective:</b> In this module, you will learn about the Environment of Django.</p>
+        <p><b>Topics:</b></p>
+        <ul>
+          <li> Installing Python </li>
+          <li>Installing Django</li>
+          <li>Database Setup</li>
+          <li>Web Server</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingThree2">
+    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree2"> DJANGO – TEMPLATE SYSTEM </a> </h4>
+  </div>
+  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+    <div class="panel-body">
+      <div class="mini-accordion">
+        <p><b>Learning Objective:</b> In this module, you will learn about the template system in Django.</p>
+        <p><b>Topics:</b></p>
+        <ul>
+          <li>The Render Function</li>
+          <li>Django Template Language (DTL)</li>
+          <li>Filters</li>
+          <li>Tags</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="headingThree2">
+  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour1" aria-expanded="false" aria-controls="collapseThree2"> DJANGO – MODELS </a> </h4>
+</div>
+<div id="collapseFour1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+<div class="panel-body">
+<div class="mini-accordion">
+<p><b>Learning Objective:</b> In this module, you will learn about models in Django.</p>
+<p><b>Topics:</b></p>
+<ul>
+<li>Creating a Model </li>
+<li>Linking Models</li>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="headingThree2">
+  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour2" aria-expanded="false" aria-controls="collapseThree2"> SENDING E-MAILS </a> </h4>
+</div>
+<div id="collapseFour2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+<div class="panel-body">
+<div class="mini-accordion">
+<p><b>Learning Objective:</b> In this module, you will learn about Sending E-mails in Django.</p>
+<p><b>Topics:</b></p>
+<ul>
+<li>Sending a Simple E-mail</li>
+<li>Sending Multiple Mails with send_mass_mail</li>
+<li>Sending HTML E-mail</li>
+<li>Sending E-mail with Attachment</li>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="headingThree2">
+  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour3" aria-expanded="false" aria-controls="collapseThree2"> DJANGO – CACHING </a> </h4>
+</div>
+<div id="collapseFour3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+<div class="panel-body">
+<div class="mini-accordion">
+<p><b>Learning Objective:</b> In this module, you will learn about Caching in Django.</p>
+<p><b>Topics:</b></p>
+<ul>
+<li>Setting Up Cache in Database</li>
+<li>Setting Up Cache in File System</li>
+<li>Caching a View</li>
+<li>Caching the Entire Site</li>
+<li>Setting Up Cache in Memory</li>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingThree2">
+    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree2"> Download Curriculum </a> </h4>
+  </div>
+  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+    <div class="panel-body">
+      <div class="mini-accordion">
+        <div class="additional_link_dwn"> <span>Get detailed course syllabus in your inbox</span>
+           <a href="assets/pdf/Introduction to Django.pdf"
+         class="btn btn-primary" download><i class="fa fa-file-pdf-o"aria-hidden="true"></i>Download Curriculum 
+			</a> 
+		  </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ==============================================
+    ** Footer **
+    =================================================== -->
+  <footer class="footer">
+    <!-- Start Footer Top -->
+    <div class="container">
+      <div class="row row1">
+        <div class="col-lg-12 clearfix">
+          <div class="foot-nav">
+            <h3>About US</h3>
+            <p class="soft" style="font-size: 14px; line-height: 18px;">SoftApp Technologies is an online training
+              provider with the most effective learning programs. We help learn the latest technologies for your career
+              growth.</p>
+          </div>
+          <div class="foot-nav">
+            <h3>Popular Courses</h3>
+            <ul>
+              <li><a href="Python.html">Python Application</a></li>
+              <li><a href="django.html">Django</a></li>
+              <li><a href="reactjs.html">React js</a></li>
+              <li><a href="react_native.html">React Native</a></li>
+            </ul>
+          </div>
+         
+          <div class="foot-nav">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About US</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact US</a></li>
+            </ul>
+          </div>
+            <div class="foot-nav">
+           <div class="connect-us">
+            <h3>Connect with Us</h3>
+            <ul class="follow-us clearfix">
+              <li><a href="https://www.facebook.com/Softapp-technologies-104660214975937" target="_blank" ><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+              <li>
+            <a href="https://twitter.com/SoftAppTechnol1" target="_blank">
+            <i class="fab fa-twitter" aria-hidden="true">
+              </i></a></li>
+    <li><a href="https://www.linkedin.com/in/softapp-technologies-379bb1205/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCWJXcDKJ2ge2RxrVUZ004tg" target="
+              _blank" ><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+     <li><a href="https://www.instagram.com/accounts/onetap/?next=%2F" target="
+              _blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer Top -->
+    <!-- Start Footer Bottom -->
+    <div class="bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p>Copyright © 2017-2021. All rights reserved by <a href="https://softapptechnologies.com/"
+                style="color: white;"> SoftApp Technologies</a>.</p>
+          </div>
+          <div class="col-md-4">
+            <ul class="terms clearfix">
+              <li><a href="terms.html">TERMS OF USE</a></li>
+              <li><a href="privacy.html">PRIVACY POLICY</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer Bottom -->
+    <!-- Scroll to top -->
+    <a href="#" class="scroll-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+  </footer>
+
+<!-- Scroll to top --> 
+<a href="#" class="scroll-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a> 
+
+<!-- ENQUIRY-Form -->
+<button type="button" class="main-btn-rect popup-btn" data-popup="popup-reg">ENQUIRY</button>
+<div id="popup-reg" class="popup">
+  <div class="popup-content">  <form id="send" class="send-form" method="POST" action="contact_mail.php">
+      <div class="form-group">
+        <input type="text" placeholder="Enter name..." id="name" name="name" required="required">
+        <label for="name"> <i class="fa fa-user"></i> </label>
+      </div>
+      <div class="form-group">
+        <input type="tel" placeholder="Enter phone..." id="phone" name="phone" required="required">
+        <label for="phone"> <i class="fa fa-phone"></i> </label>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Enter mail..." id="email" name="email" required="required">
+        <label for="mail"> <i class="fa fa-envelope"></i> </label>
+      </div>
+      <div class="form-group">
+        <textarea  placeholder="Enter message..." name="text" id="text"></textarea>
+        <label for="text" class="txt"> <i class="fa fa-commenting"></i> </label>
+      </div>
+      <button type="submit" class="main-btn-rect" name="submit" value="Send"> <i class="fa fa-paper-plane"></i>Send</button>
+    </form>
+    <span class="fade-out main-btn-circle">╳</span> </div>
+</div>
+
+<!-- Optional JavaScript -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+<!-- <script src="js/jquery.min.js"></script> 
+<script src="assets/bootstrap/js/bootstrap.min.js"></script> 
+<script src="assets/select2/js/select2.min.js"></script> 
+<script src="assets/matchHeight/js/matchHeight-min.js"></script> 
+<script src="assets/bxslider/js/bxslider.min.js"></script> 
+<script src="assets/waypoints/js/waypoints.min.js"></script> 
+<script src="assets/counterup/js/counterup.min.js"></script> 
+<script src="assets/magnific-popup/js/magnific-popup.min.js"></script> 
+<script src="assets/owl-carousel/js/owl.carousel.min.js"></script> 
+<script src="js/modernizr.custom.js"></script> 
+<script src="js/custom.js"></script>  -->
+<!--Django js-->
+<script src="{% static 'js/magnific-popup.min.js' %}"></script>  
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>      
+<script src="{% static 'js/custom.js' %}"></script>  
+<!-- <script src="{% static 'js/widget.js' %}"></script>   -->
+<script src="{% static 'js/select2.min.js' %}"></script> 
+<script src="{% static 'js/launcher.js' %}"></script>
+<script src="{% static 'js/bxslider.min.js' %}"></script> 
+<script src="{% static 'js/matchHeight-min.js' %}"></script> 
+<script src="{% static 'js/waypoints.min.js' %}"></script> 
+<script src="{% static 'js/counterup.min.js' %}"></script>
+<script src="{% static 'js/modernizer.custom.js' %}"></script> 
+
+<script>
+        $(document).ready(function(){
+  $('.popup-btn').click(function(){ 
+    var popupBlock = $('#'+$(this).data('popup'));
+    popupBlock.addClass('active')
+      .find('.fade-out').click(function(){
+        popupBlock.css('opacity','0').find('.popup-content').css('margin-top','350px');        
+        setTimeout(function(){
+          $('.popup').removeClass('active');
+          popupBlock.css('opacity','').find('.popup-content').css('margin-top','');
+        }, 1000);
+      });
+ });
+});
+    </script>
+</body>
+</html>
